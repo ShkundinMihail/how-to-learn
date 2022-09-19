@@ -62,7 +62,7 @@ right: -51px;
 z-index: 1;
 }
 .square-pic{
-  background-color:#2f80ed ;
+  background-color:#2f80ed;
 }
 .header__square-pic {
 height: 568px;
@@ -191,13 +191,13 @@ overflow: hidden;
 width: 60%;
 margin: 90px auto 20px auto;
 text-align: center;
-z-index: 2
+z-index: 2;
 }
 .subtitle-kaufman{
 width: 60%;
 text-align: center;
 margin: 0 auto;
-z-index: 2
+z-index: 2;
 }
 .tadle_theme_dark{
  width: 70%;
@@ -225,7 +225,7 @@ z-index: 2;
 position: absolute;
 display: flex;
   top: 0;
-  right: -120px ;
+  right: -120px;
   z-index: 1;
 }
 
