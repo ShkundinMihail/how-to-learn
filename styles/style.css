@@ -309,7 +309,7 @@
 /*.footer_content_social{}*/
 .footer_column {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
 
 .logo_place_footer {
