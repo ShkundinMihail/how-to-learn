@@ -1,17 +1,12 @@
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   background-color: #f2f2f2;
   text-decoration: none;
 }
 
-/*section header*/
 .header {
   height: 100vh;
   min-height: 600px;
@@ -36,7 +31,7 @@
 .header__title {
   width: 730px;
   line-height: 96px;
-  font-style: 600;
+  font-weight: 600;
   font-size: 102px;
   z-index: 2;
 }
@@ -129,7 +124,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding: 100px;
+  padding-bottom: 100px;
 
 
 }
@@ -141,7 +136,7 @@
   flex-direction: column;
   line-height: 1.15;
   font-size: 60px;
-  font-style: 600;
+  font-weight: 600;
   margin-bottom: 20px;
   margin-top: 0;
 }
@@ -173,7 +168,7 @@
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
-  font-style: 600;
+  font-weight: 600;
   margin: 0 0;
 }
 
@@ -205,7 +200,7 @@
   margin-top: 100px;
   line-height: 1.15;
   font-size: 120px;
-  font-style: 600;
+  font-weight: 600;
   z-index: 2;
   text-align: center;
 }
@@ -305,8 +300,6 @@
   justify-content: space-between;
 }
 
-/*.footer_colunm_content_info{}*/
-/*.footer_content_social{}*/
 .footer_column {
   display: flex;
   flex-direction: column;
@@ -329,7 +322,7 @@
   margin: 0 auto 20px 0;
   line-height: 30px;
   font-size: 18px;
-  font-style: 600;
+  font-weight: 600;
 }
 
 .footer__column-links {
@@ -348,43 +341,3 @@
   display: flex;
   flex-direction: row;
 }
-
-
-
-
-
-/*div {
-  border: 1px solid red;
-}
-
-section {
-  border: 1px solid red;
-}
-
-p {
-  border: 1px solid red;
-}
-
-h2 {
-  border: 1px solid red;
-}
-
-h3 {
-  border: 1px solid rgb(219, 118, 118);
-}
-
-h1 {
-  border: 1px solid red;
-}
-
-h4 {
-  border: 1px solid red;
-}
-
-li {
-  border: 1px solid red;
-}
-
-ul {
-  border: 1px solid red;
-}*/
