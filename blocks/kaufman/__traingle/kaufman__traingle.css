@@ -8,6 +8,4 @@
   top: 0;
   right: -210px;
   z-index: 1;
-  animation: 20s linear infinite;
-  animation-name: rotation;
 }

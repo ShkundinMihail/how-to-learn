@@ -1,4 +1,14 @@
-@keyframes rotation{
-  from{rotate :0;}
-  to{rotate: 360deg;}
+.rotation {
+  animation: 20s linear infinite;
+  animation-name: rotation;
+}
+
+@keyframes rotation {
+  from {
+    rotate: 0;
+  }
+
+  to {
+    rotate: 360deg;
+  }
 }

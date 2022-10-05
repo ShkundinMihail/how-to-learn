@@ -1,8 +1,7 @@
-.video__iframes{
+.video__iframes {
   margin: 0;
   display: flex;
   grid-column-gap: 20px;
   padding-top: 50px;
   z-index: 2;
-
 }

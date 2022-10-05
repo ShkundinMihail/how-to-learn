@@ -1,10 +1,9 @@
-.resourses__logo{
+.resourses__logo {
   width: 270px;
   height: 38px;
 }
-.resourses__logo:hover{
+
+.resourses__logo:hover {
   transition: opacity 0.5s linear;
-  transition: scale 1s ease;
   opacity: 0.6;
-  scale: 1.2;
-  }
+}

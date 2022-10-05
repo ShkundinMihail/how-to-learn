@@ -6,6 +6,4 @@
   position: absolute;
   right: 0;
   top: 64px;
-  animation: 20s linear infinite;
-  animation-name: rotation;
 }
