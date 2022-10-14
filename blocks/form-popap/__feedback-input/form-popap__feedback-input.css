@@ -1,0 +1,13 @@
+.form-popap__feedback-input {
+  border: none;
+  border-bottom: 1px solid grey;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.form-popap__feedback-input:focus {
+  background-color: rgb(241, 243, 247);
+  scale: 1.05;
+  outline: none;
+}

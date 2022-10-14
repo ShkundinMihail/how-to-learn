@@ -1,0 +1,12 @@
+.form-popap__name-input{
+  border: none;
+  border-bottom: 1px solid grey;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  font-style: italic;
+}
+.form-popap__name-input:focus{
+  background-color: rgb(236, 240, 245);
+  scale: 1.1;
+  outline: none;
+}

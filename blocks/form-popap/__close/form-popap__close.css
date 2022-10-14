@@ -1,0 +1,12 @@
+.form-popap__close {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: none;
+  transition: 1s ease-in-out background-color;
+}
+.form-popap__close:hover{
+  background-color: rgb(240, 37, 64);
+}

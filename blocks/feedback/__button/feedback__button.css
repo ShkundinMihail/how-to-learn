@@ -1,0 +1,18 @@
+.feedback__button{
+  margin: 0;
+  width: 250px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f80ed;
+  border: none;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  transition:transform 2s linear ;
+}
+.feedback__button:hover{
+transform: scale(1.1);
+transform: opacity(0.3);
+}

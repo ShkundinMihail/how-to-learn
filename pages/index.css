@@ -10,6 +10,7 @@
 @import url(../blocks/khan/khan.css);
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/resourses/resourses.css);
+@import url(../blocks/feedback/feedback.css);
 @import url(../blocks/footer/footer.css);
 
 @import url(../blocks/logo/logo.css);
@@ -67,6 +68,16 @@
 @import url(../blocks/resourses/__logo-zone/resourses__logo-zone.css);
 @import url(../blocks/resourses/__link/resourses__link.css);
 @import url(../blocks/resourses/__logo/resourses__logo.css);
+
+@import url(../blocks/feedback/__button/feedback__button.css);
+@import url(../blocks/form-popap/form-popap.css);
+@import url(../blocks/form-popap/__container/form-popap__container.css);
+@import url(../blocks/form-popap/__name-heading/form-popap__name-heading.css);
+@import url(../blocks/form-popap/__name-input/form-popap__name-input.css);
+@import url(../blocks/form-popap/__feedback-heading/form-popap__feedback-heading.css);
+@import url(../blocks/form-popap/__feedback-input/form-popap__feedback-input.css);
+@import url(../blocks/form-popap/__send/form-popap__send.css);
+@import url(../blocks/form-popap/__close/form-popap__close.css);
 
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/footer__column.css);

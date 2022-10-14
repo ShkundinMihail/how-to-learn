@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
-
   <title>Научиться учиться</title>
 </head>
 
@@ -16,7 +15,7 @@
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные
         эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a href="#" class="header__link">Узнать&#8594;</a>
+        <a href="https://habr.com/ru/post/38838/" target="_blank" class="header__link">Узнать&#8594;</a>
       </p>
       <img class="header__main-illustration" src="images/two_again.png" alt="картинка">
       <div class="header__square-pic rotation"></div>
@@ -98,12 +97,14 @@
         <p class="section-subtitle">Для тех,
           кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="The first 20 hours -- how
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="The first
+              20 hours -- how
               to learn anything | Josh Kaufman |
               TEDxCSU" allow="accelerometer; autoplay;
               clipboard-write; encrypted-media;
               gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="Tim Urban: Inside the mind
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="Tim Urban:
+              Inside the mind
               of a master procrastinator |
               TED" allow="accelerometer; autoplay;
               clipboard-write;
@@ -149,7 +150,8 @@
           Фейнмана</h2>
         <p class="feynman__subtitle">Выучить
           и не забыть.</p>
-        <a class="feynman__link" href="#">Подробнее&#8594;</a>
+        <a class="feynman__link" href="https://habr.com/ru/company/getmeit/blog/646085/"
+          target="_blank">Подробнее&#8594;</a>
       </section>
       <section class="digits">
         <h2 class="section-title">Цифры
@@ -249,7 +251,9 @@
             продюсер</p>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="images/khan-book.jpg" alt="книга">
-            <a class="khan__buy-link" href="#">Купить
+            <a class="khan__buy-link"
+              href="https://www.ozon.ru/product/ves-mir-shkola-preobrazovannoe-obrazovanie-162999126/?sh=Hl-bEPbwDw"
+              target="_blank">Купить
               книгу&#8594;</a>
           </div>
         </div>
@@ -375,10 +379,33 @@
           техниках и
           лайфхаках обучения</p>
         <div class="resourses__logo-zone">
-          <a href="#"><img class="resourses__logo" src="images/logo/resources-arzamas.svg" alt="арзамас"></a>
-          <a href="#"><img class="resourses__logo" src="images/logo/resources-n1.svg" alt="н1"></a>
-          <a href="#"><img class="resourses__logo" src="images/logo/resources-strelka.svg" alt="стрелка"></a>
-          <a href="#"><img class="resourses__logo" src="images/logo/resources-polka.svg" alt="полка"></a>
+          <a href="https://arzamas.academy/" target="_blank"><img class="resourses__logo"
+              src="images/logo/resources-arzamas.svg" alt="арзамас"></a>
+          <a href="https://nplus1.ru/" target="_blank"><img class="resourses__logo" src="images/logo/resources-n1.svg"
+              alt="н+1"></a>
+          <a href="https://www.strelka.com/" target="_blank"><img class="resourses__logo"
+              src="images/logo/resources-strelka.svg" alt="стрелка"></a>
+          <a href="https://polka.academy/" target="_blank"><img class="resourses__logo"
+              src="images/logo/resources-polka.svg" alt="полка"></a>
+        </div>
+      </section>
+      <section class="feedback">
+        <button class="feedback__button" type="button" id="button" onclick="openForm()">Оставить отзыв</button>
+        <div class="form-popup" id="myForm">
+          <form action="mailto:Corve5adv@yandex.ru" class="form-popap__container">
+            <label class="form-popap__name-heading" for="name">Имя</label>
+            <br>
+            <input class="form-popap__name-input" type="text" placeholder="Ваше имя" name="name" maxlength="30"
+              required>
+            <br>
+            <label class="form-popap__feedback-heading" name="text">Отзыв</label>
+            <br>
+            <textarea class="form-popap__feedback-input" name="text" placeholder="Ваш отзыв" cols="30" rows="10"
+              required></textarea>
+            <br>
+            <button class="form-popap__send" type="submit" onclick="sendForm()">Отправить</button>
+            <button class="form-popap__close" type="button" onclick="closeForm()">Закрыть</button>
+          </form>
         </div>
       </section>
     </main>
@@ -419,6 +446,8 @@
       </div>
     </footer>
   </div>
+  <script src="./js/main.js"></script>
+
 </body>
 
 </html>

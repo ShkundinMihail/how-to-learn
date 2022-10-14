@@ -1,0 +1,9 @@
+.feedback{
+  margin: 0;
+  height: min-content;
+  padding-bottom: 2.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
