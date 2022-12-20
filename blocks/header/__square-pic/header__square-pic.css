@@ -1,5 +1,6 @@
 .header__square-pic {
-  background-color: #2f80ed;
+  background:url('../../../images/ab30e318fd8bb3ec1f1a8be4f8fe318f-transformed.png');
+  background-size: contain;
   height: 568px;
   width: 568px;
   z-index: 1;
